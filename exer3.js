@@ -6,6 +6,8 @@ class Produto {
         Produto.totalProdutos++;
     }
 
-    
+    calcularValorTotal() {
+        return this.preco * this.quantidade;
+    }
 
 }
